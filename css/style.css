@@ -9,3 +9,32 @@
     margin: 0 auto;
 }
 
+body{
+    background-color:#000 ;
+}
+
+
+/*Header*/
+
+header{
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+header .fas{
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: rgba(123, 114, 114, 0.8);
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 10px;
+
+}
+
+/*Main*/
+
