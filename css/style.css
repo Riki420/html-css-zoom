@@ -10,6 +10,10 @@ body{
 
 }
 
+.green{
+    color: green;
+}
+
 
 /*Header*/
 
@@ -48,27 +52,31 @@ header .fas{
 
 .video-box{
     margin-right: 8px;
+    position: relative;
 
+}
+
+.name-user{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    z-index: 1;
+    padding: 5px;
+    background-color: rgba(123, 114, 114, 0.8);
+    border-radius: 4px;
+  
 }
 
 
 /*Footer*/
 
-footer{
-    height:15vh;
-    
-}
 
 .foot-nav-icon{
     display: flex;
     justify-content: space-between;
     
 }
-.foot-nav{
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 
 .col .fas,
 .col .far{
@@ -78,12 +86,16 @@ footer{
 
 .col{
     padding: 10px;
-    flex-direction: column;
 }
+
 
 
 .col:nth-child(3){
     text-align: center;
     background-color: grey;
     color: red;
+}
+
+h3{
+    line-height: 4.9;
 }
