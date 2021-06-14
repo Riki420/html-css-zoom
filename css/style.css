@@ -76,7 +76,14 @@ footer{
     margin: 0 10px ;
 }
 
-.col span{
-    margin: 0 10px;
+.col{
+    padding: 10px;
+    flex-direction: column;
 }
 
+
+.col:nth-child(3){
+    text-align: center;
+    background-color: grey;
+    color: red;
+}
