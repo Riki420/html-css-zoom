@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 body{
     background-color:#000 ;
 }
@@ -37,4 +32,21 @@ header .fas{
 }
 
 /*Main*/
+
+.container-flex{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.video-box{
+    margin-right: 8px;
+}
+
+
+/*Footer*/
 
